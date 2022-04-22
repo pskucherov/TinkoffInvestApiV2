@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "",
   "author": "pskucherov",
-  "main": "server.js",
+  "type": "commonjs",
   "engines": {
     "node": ">=16.0.0"
   },
@@ -33,10 +33,12 @@
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "^7.29.4",
     "eslint-plugin-sonarjs": "^0.13.0",
+    "grpc": "^1.24.11",
+    "grpc_tools_node_protoc_ts": "^5.3.2",
     "grpc-tools": "^1.11.2",
     "pre-commit": "^1.2.2"
   },
   "dependencies": {
-    "nice-grpc": "^1.1.1"
+    "@grpc/grpc-js": "^1.6.7"
   }
 }
