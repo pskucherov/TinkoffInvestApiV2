@@ -8,6 +8,7 @@
     "node": ">=16.0.0"
   },
   "scripts": {
+    "protoc-gen": "npx grpc_tools_node_protoc --js_out=import_style=commonjs,binary:./.grpc_protoc_gen --grpc_out=./.grpc_protoc_gen -I ./contracts ./contracts/*.proto",
     "lint-fix": "npx eslint --fix ."
   },
   "precommit": {
@@ -32,6 +33,7 @@
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "^7.29.4",
     "eslint-plugin-sonarjs": "^0.13.0",
+    "grpc-tools": "^1.11.2",
     "pre-commit": "^1.2.2"
   }
 }
