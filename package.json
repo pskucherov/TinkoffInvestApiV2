@@ -1,0 +1,37 @@
+{
+  "name": "tinkoff-invest-api-v2",
+  "version": "0.1.0",
+  "description": "",
+  "author": "pskucherov",
+  "main": "server.js",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "lint-fix": "npx eslint --fix ."
+  },
+  "precommit": {
+    "run": "lint-fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pskucherov/TinkoffInvestApiV2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pskucherov/TinkoffInvestApiV2/issues"
+  },
+  "homepage": "https://github.com/pskucherov/TinkoffInvestApiV2/tconnector#readme",
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-no-loops": "^0.3.0",
+    "eslint-plugin-no-use-extend-native": "^0.5.0",
+    "eslint-plugin-optimize-regex": "^1.2.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-sonarjs": "^0.13.0",
+    "pre-commit": "^1.2.2"
+  }
+}
